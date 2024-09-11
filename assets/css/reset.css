@@ -14,6 +14,10 @@
     -moz-box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     min-height: 100vh;
     scroll-behavior: smooth;
@@ -28,6 +32,9 @@ ul, ol{
 a{
     display: block;
     text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
 }
 
 p a{
@@ -37,4 +44,11 @@ p a{
 img, video, iframe, picture, figure{
     max-width: 100%;
     display: block;
+}
+
+form, input, button, textarea, select, label{
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
 }
