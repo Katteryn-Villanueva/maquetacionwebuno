@@ -1,5 +1,13 @@
-/* h1{
-    font-family: "poppins";
-    font-size: 50px;
-    font-style: italic;
-} */
+/* DEFINICION DE VARIABLES */
+:root{
+    --color-principal: #ffffff;
+    --color-secundario: #04B4E0;
+
+    --color-background: #F2F7F9;
+    --color-transparente: transparent;
+
+    --color-icono: #B5B6B7;
+    --color-subtitulo: #999999;
+    --color-texto: #555;
+}
+/* ESTRUCTURA PRINCIPAL */
