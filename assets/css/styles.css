@@ -58,3 +58,17 @@ body{
     box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
     overflow: hidden;
 }
+
+/* BARRA LATERAL AZUL */
+.layout__aside{
+    grid-area: aside;
+    border-radius: 4rem 0 0 4rem;
+    overflow: auto;
+    overflow: hidden;
+
+}
+
+/* CONTENIDO PRINCIPAL */
+.layout__content{
+    grid-area: aside;
+}
