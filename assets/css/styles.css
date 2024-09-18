@@ -81,9 +81,14 @@ body{
 
 /* DAR FORMATO A LA IMAGEN */
 .user-info__container-image{
+    position: relative;
     display: inline-block;
     width: 18rem;
     margin-top: 7rem;
+    background-color: var(--color-principal);
+    border: 3px solid var(--color-principal);
+    border-radius: 20rem;
+    overflow: hidden;
 }
 
 /* CONTENIDO PRINCIPAL */
