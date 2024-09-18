@@ -76,6 +76,14 @@ body{
     min-height: 100%;
     min-width: 30rem;
     background-color: var(--color-secundary);
+    color: var(--color-principal);
+}
+
+/* DAR FORMATO A LA IMAGEN */
+.user-info__container-image{
+    display: inline-block;
+    width: 18rem;
+    margin-top: 7rem;
 }
 
 /* CONTENIDO PRINCIPAL */
