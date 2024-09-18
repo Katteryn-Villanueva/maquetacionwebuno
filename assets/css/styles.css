@@ -74,5 +74,5 @@ body{
 
 /* CONTENIDO PRINCIPAL */
 .layout__content{
-    grid-area: aside;
+    grid-area: content;
 }
