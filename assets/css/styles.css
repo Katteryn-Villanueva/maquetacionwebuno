@@ -91,6 +91,10 @@ body{
     overflow: hidden;
 }
 
+.user-info__image{
+    width: 100%;
+}
+
 /* CONTENIDO PRINCIPAL */
 .layout__content{
     grid-area: content;
