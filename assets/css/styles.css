@@ -122,6 +122,11 @@ body{
     color: var(--color-principal);
 }
 
+/* MENU DE NAVEGACION */
+.layout__menu{
+    display:none !important;
+}
+
 /* CONTENIDO PRINCIPAL */
 .layout__content{
     grid-area: content;
