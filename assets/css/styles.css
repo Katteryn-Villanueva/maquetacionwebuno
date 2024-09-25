@@ -197,6 +197,17 @@ body{
     justify-content: center;
 }
 
+.page__name{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.page__job{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    color: var(--color-subtitles);
+}
+
 /* MENU DE NAVEGACION */
 .layout__menu{
     display:none !important;
