@@ -170,12 +170,22 @@ body{
     color: var(--color-secundary);
 }
 
-/* MENU DE NAVEGACION */
-.layout__menu{
-    display:none !important;
+/* PIE DE PAGINA */
+.user-info__footer{
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 /* CONTENIDO PRINCIPAL */
 .layout__content{
     grid-area: content;
+
+    background-color: var(--color-secundary);
+    border-radius: 0 10rem 10rem 0;
+}
+
+/* MENU DE NAVEGACION */
+.layout__menu{
+    display:none !important;
 }
