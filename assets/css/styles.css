@@ -121,6 +121,23 @@ body{
     font-weight: 200;
     color: var(--color-principal);
 }
+/* LINKS O REDES SOCIALES */
+.user-info__links{
+    margin-bottom: 3.6rem;
+}
+
+.links__social{
+    margin-top: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social__option{
+    height: 3rem;
+    width: 3rem;
+}
 
 /* MENU DE NAVEGACION */
 .layout__menu{
