@@ -109,6 +109,14 @@ body{
     border-radius: 30rem;
 }
 
+.user-info__name{
+
+}
+
+.user-info__job{
+    
+}
+
 /* CONTENIDO PRINCIPAL */
 .layout__content{
     grid-area: content;
