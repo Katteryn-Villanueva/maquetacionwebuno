@@ -155,7 +155,13 @@ body{
 }
 
 .user-info__btn{
+    padding: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
     border: 2px solid var(--color-principal);
+    border-radius: 3.2rem;
+    color: var(--color-principal);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.22) ;
 }
 
 /* MENU DE NAVEGACION */
