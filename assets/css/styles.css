@@ -148,6 +148,15 @@ body{
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.20);
 }
+/* BOTON DE CURRICULUM */
+.user-info__buttons{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.user-info__btn{
+    border: 2px solid var(--color-principal);
+}
 
 /* MENU DE NAVEGACION */
 .layout__menu{
