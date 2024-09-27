@@ -241,6 +241,7 @@ body{
 .menu__icon{
     color: var(--color-icons);
     font-size: 2.8rem;
+    transition: all 300ms ease-in-out;
 }
 
 .menu__option:hover .menu__icon{
