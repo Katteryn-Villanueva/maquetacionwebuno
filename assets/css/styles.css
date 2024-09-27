@@ -222,5 +222,6 @@ body{
 }
 
 .menu__icon{
-    
+    color: var(--color-icons);
+    font-size: 2.8rem;
 }
