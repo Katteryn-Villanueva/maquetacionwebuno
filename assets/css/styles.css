@@ -221,6 +221,12 @@ body{
     background-color: var(--color-principal);
 }
 
+.menu__option{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 .menu__icon{
     color: var(--color-icons);
     font-size: 2.8rem;
