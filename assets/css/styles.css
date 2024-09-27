@@ -209,7 +209,7 @@ body{
 
 /* MENU DE NAVEGACION LATERAL */
 .layout__menu{
-    display: blcok;
+    display: block;
     position: absolute;
     top: 0;
     right: -150px;
@@ -219,10 +219,16 @@ body{
 
 .menu__list{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
     width: 60%;
-    min-width: 32rem;
+    min-height: 32rem;
+    padding: 2rem;
     background-color: var(--color-principal);
-    box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.15);
     border-radius: 5rem;
 }
 
@@ -239,4 +245,5 @@ body{
 
 .menu__overlay{
     opacity: 0;
+    display: none;
 }
