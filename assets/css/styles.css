@@ -215,3 +215,12 @@ body{
     right: -50px;
     background-color: var(--color-transparente);
 }
+
+.menu__list{
+    position: relative;
+    background-color: var(--color-principal);
+}
+
+.menu__icon{
+    
+}
