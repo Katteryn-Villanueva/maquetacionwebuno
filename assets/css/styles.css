@@ -49,8 +49,7 @@ body{
     margin: 10vh auto;
 
     display: grid;
-    grid-template-areas: 
-        "aside content";
+    grid-template-areas: "aside content";
     grid-template-columns: 30% 70%;
 
     /* Sombra detras de layout */
@@ -208,7 +207,10 @@ body{
     color: var(--color-subtitles);
 }
 
-/* MENU DE NAVEGACION */
+/* MENU DE NAVEGACION LATERAL */
 .layout__menu{
-    display:none !important;
+    display: blcok;
+    position: absolute;
+    top: 0;
+    right: -50px;
 }
