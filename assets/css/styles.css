@@ -249,7 +249,10 @@ body{
 }
 
 .menu__overlay{
+    position: absolute;
     opacity: 1;
     display: block;
     color: black;
+    background-color: var(--color-secundary);
+    white-space: nowrap;
 }
