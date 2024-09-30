@@ -251,10 +251,16 @@ body{
 .menu__overlay{
     position: absolute;
     right: 0;
-    margin-top: -2.8rem;
+    margin-top: -3rem;
     opacity: 1;
     display: block;
+    padding: 0.5rem 1rem;
     color: var(--color-principal);
     background-color: var(--color-secundary);
     white-space: nowrap;
+}
+
+.menu__option .menu__overlay{
+    opacity: 1;
+    right: 100%;
 }
