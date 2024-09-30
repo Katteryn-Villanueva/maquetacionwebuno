@@ -250,9 +250,11 @@ body{
 
 .menu__overlay{
     position: absolute;
+    right: 0;
+    margin-top: -2.8rem;
     opacity: 1;
     display: block;
-    color: black;
+    color: var(--color-principal);
     background-color: var(--color-secundary);
     white-space: nowrap;
 }
