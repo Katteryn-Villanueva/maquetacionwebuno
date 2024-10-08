@@ -277,6 +277,7 @@ body{
 }
 
 .about__header{
+    display: inline-block;
     margin-bottom: 4.5rem;
 }
 
@@ -284,3 +285,49 @@ body{
     font-size: 3.2rem;
     position: relative;
 }
+
+.about__title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 20px;
+    right: -23px;
+    background-image: -webkit-radial-gradient(center center, var(--color-secundary), var(--color-secundary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+}
+
+.title__color{
+    color: var(--color-secundary);
+}
+ /* INFORMACION PERSONAL */
+.about__personal-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+ }
+
+ .about__personal-info{
+    flex-basis: 55%;
+ }
+
+ .personal-info__description{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+ }
+
+ .personal-info__data{
+    flex-basis: 45%;
+    padding: 0 1.5rem;
+ }
+
+ .personal-info__option{
+    margin-bottom: 1rem;
+ }
+
+ .personal-info__title{
+    margin-right: 0.5rem;
+    color: var(--color-secundary);
+    font-weight: 700;
+ }
