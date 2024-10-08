@@ -295,6 +295,7 @@ body{
     right: -23px;
     background-image: -webkit-radial-gradient(center center, var(--color-secundary), var(--color-secundary) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
+    opacity: 0.5;
 }
 
 .title__color{
@@ -335,6 +336,25 @@ body{
  /* SERVICIOS */
  .services__header{
     display: inline-block;
-    padding-right: 1.2rem;
     position: relative;
  }
+
+ .serivices__title{
+    font-size: 2.1rem;
+ }
+
+ .serivices__title::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 15px;
+    right: -10px;
+    background-image: -webkit-radial-gradient(center center, var(--color-secundary), var(--color-secundary) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+    opacity: 0.5;
+}
+
+.service__icon{
+    
+}
