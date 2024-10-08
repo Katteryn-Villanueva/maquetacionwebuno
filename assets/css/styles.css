@@ -334,8 +334,15 @@ body{
  }
 
  /* SERVICIOS */
+ .about__service{
+    width: 100%;
+    margin-bottom: 3rem;
+ }
+
  .services__header{
     display: inline-block;
+    padding-right: 1.2rem;
+    margin-bottom: 2.5rem;
     position: relative;
  }
 
@@ -349,12 +356,13 @@ body{
     width: 30px;
     height: 20px;
     top: 15px;
-    right: -10px;
+    right: -5px;
     background-image: -webkit-radial-gradient(center center, var(--color-secundary), var(--color-secundary) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
     opacity: 0.5;
 }
 
-.service__icon{
-    
+.service__real-icon{
+    color: var(--color-secundary);
+    font-size: 3.8rem;
 }
