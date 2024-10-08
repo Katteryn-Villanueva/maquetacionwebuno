@@ -331,3 +331,10 @@ body{
     color: var(--color-secundary);
     font-weight: 700;
  }
+
+ /* SERVICIOS */
+ .services__header{
+    display: inline-block;
+    padding-right: 1.2rem;
+    position: relative;
+ }
