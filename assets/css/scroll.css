@@ -2,4 +2,9 @@
 /* SCROLL CHROME */
 .content__page::-webkit-scrollbar{
     width: 25px;
+    background: gray;
+}
+
+.content__page::-webkit-scrollbar-thumb{
+    border: 10px solid red;
 }
