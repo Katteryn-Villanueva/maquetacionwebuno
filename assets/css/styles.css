@@ -333,24 +333,24 @@ body{
     font-weight: 700;
  }
 
- /* SERVICIOS */
- .about__service{
+ /* ESTILOS COMPARTIDOS ABOUT */
+ .about__service, .about__reviews{
     width: 100%;
     margin-bottom: 3rem;
  }
 
- .services__header{
+ .services__header, .reviews__header{
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
     position: relative;
  }
 
- .serivices__title{
+ .serivices__title, .reviews__title{
     font-size: 2.1rem;
  }
 
- .serivices__title::after{
+ .serivices__title::after, .reviews__title::after{
     content: "";
     position: absolute;
     width: 30px;
@@ -361,7 +361,7 @@ body{
     background-size: 6px 6px;
     opacity: 0.5;
 }
-
+ /* SERVICIOS */
 .services__container{
     width: 100%;
     display: flex;
