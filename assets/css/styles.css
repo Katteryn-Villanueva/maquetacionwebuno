@@ -337,23 +337,23 @@ body{
  }
 
  /* ESTILOS COMPARTIDOS ABOUT */
- .about__service, .about__reviews, .about__clients{
+ .about__service, .about__reviews, .about__clients, .about__prices{
     width: 100%;
     margin-bottom: 3rem;
  }
 
- .services__header, .reviews__header, .clients__header{
+ .services__header, .reviews__header, .clients__header, .prices__header{
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
     position: relative;
  }
 
- .serivices__title, .reviews__title, clients__title{
+ .serivices__title, .reviews__title, .clients__title, .prices__title{
     font-size: 2.1rem;
  }
 
- .serivices__title::after, .reviews__title::after, clients__title::after{
+ .serivices__title::after, .reviews__title::after, .clients__title::after, .prices__title::after{
     content: "";
     position: absolute;
     width: 30px;
