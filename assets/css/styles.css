@@ -494,3 +494,21 @@ body{
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+/* PRECIOS */
+.prices__container{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.prices__box{
+    flex-basis: 50%;
+    margin-right: 3rem;
+    padding: 3rem;
+    border: 2px solid var(--color-border-reviews);
+}
+
+.prices__box:last-of-type{
+    margin-right: 0rem;
+}
