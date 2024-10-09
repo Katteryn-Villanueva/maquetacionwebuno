@@ -402,5 +402,25 @@ body{
 }
 
 .reviews__review{
-    flex-basis: 50%;
+    flex-basis: calc(50% - 2.5rem);
+
+    border: 2px solid var(--color-border-reviews);
+    border-radius: 2rem;
+    padding-top: 0;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin-right: 2.5rem;
+}
+
+.review__image-container{
+    width: 100%;
+}
+
+.review__image{
+    max-width: 9rem;
+    max-height: 9rem;
+    border-radius: 9rem;
+    margin: 0 auto;
+    margin-top: -4.5rem;
 }
