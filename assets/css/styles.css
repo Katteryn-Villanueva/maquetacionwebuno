@@ -390,3 +390,14 @@ body{
     text-align: justify;
 }
 
+/* REVIEWS */
+.reviews__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reviews__review{
+    flex-basis: 50%;
+}
