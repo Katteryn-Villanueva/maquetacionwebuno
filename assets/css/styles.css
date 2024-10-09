@@ -430,5 +430,34 @@ body{
 }
 
 .review__description{
-    
+    margin-bottom: 1rem;
+}
+
+.review__text{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.review__author{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review__name{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem; 
+}
+
+.review__company{
+    color: var(--color-company);
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.review__icon{
+    font-size: 4rem;
+    opacity: 0.5;
+    color: var(--color-secundary);
 }
