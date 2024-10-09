@@ -540,3 +540,28 @@ body{
     height: 0.2rem;
     background-color: var(--color-secundary);
 }
+
+.prices__price{
+    padding-bottom: 1rem;
+}
+
+.prices__number{
+    display: block;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: var(--color-titles);
+}
+
+.prices__advice{
+    display: block;
+    color: var(--color-subtitles);
+}
+
+.prices__buy{
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.prices__btn{
+    
+}
