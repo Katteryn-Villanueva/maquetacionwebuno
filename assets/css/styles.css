@@ -585,8 +585,15 @@ body{
 /* INFORMACION EXTRA */
 .extra__container{
     width: 100%;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.extra__info{
+    flex-basis: 30%;
+    border: 2px solid var(--color-border-reviews);
+    text-align: center;
 }
