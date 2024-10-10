@@ -604,3 +604,9 @@ body{
 .extra__info:hover{
     transform: translateY(-0.5rem);
 }
+
+.extra__icon{
+    font-size: 3.3rem;
+    color: var(--color-secundary);
+    margin-bottom: 1rem;
+}
