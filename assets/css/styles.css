@@ -610,3 +610,8 @@ body{
     color: var(--color-secundary);
     margin-bottom: 1rem;
 }
+
+.extra__subtitle{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
