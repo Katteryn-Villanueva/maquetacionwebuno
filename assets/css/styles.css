@@ -336,24 +336,29 @@ body{
     font-weight: 700;
  }
 
- /* ESTILOS COMPARTIDOS ABOUT */
+ /* ESTILOS GENERALES Y COMPARTIDOS ABOUT */
  .about__service, .about__reviews, .about__clients, .about__prices, .about__extra{
     width: 100%;
     margin-bottom: 3rem;
  }
 
- .services__header, .reviews__header, .clients__header, .prices__header, .extra__header{
+ .services__header, .reviews__header, .clients__header, .prices__header, .extra__header, .resume__subheader{
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
     position: relative;
  }
 
- .serivices__title, .reviews__title, .clients__title, .prices__title, .extra__title{
+ .serivices__title, .reviews__title, .clients__title, .prices__title, .extra__title, .resume__subtitle{
     font-size: 2.1rem;
  }
 
- .serivices__title::after, .reviews__title::after, .clients__title::after, .prices__title::after, .extra__title::after{
+ .serivices__title::after, 
+ .reviews__title::after, 
+ .clients__title::after, 
+ .prices__title::after, 
+ .extra__title::after,
+ .resume__subtitle::after{
     content: "";
     position: absolute;
     width: 30px;
