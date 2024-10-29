@@ -661,6 +661,18 @@ body{
     padding-right: 2.5rem;
 }
 
+.timeline__year{
+    margin: 3px 0px;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.timeline__company{
+    display: block;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
 /* CURRICULUM DERECHA */
 .resume__right{
     flex-basis: 41%;
