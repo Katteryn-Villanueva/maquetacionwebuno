@@ -301,7 +301,7 @@ body{
     opacity: 0.5;
 }
 
-.title__color{
+.title__color, .subtitle__color{
     color: var(--color-secundary);
 }
  /* INFORMACION PERSONAL */
