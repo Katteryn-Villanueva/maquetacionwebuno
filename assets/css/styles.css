@@ -679,6 +679,15 @@ body{
     padding-left: 2.5rem;
     padding-right: 1.5rem;
 }
+ .timeline__title{
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+ }
+
+.timeline__text{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
 
 /* CURRICULUM DERECHA */
 .resume__right{
