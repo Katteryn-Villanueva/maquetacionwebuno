@@ -670,7 +670,14 @@ body{
 .timeline__company{
     display: block;
     font-size: 1.3rem;
-    font-weight: lighter;    
+    font-weight: lighter;
+    color: var(--color-company);    
+}
+
+.timeline__description{
+    width: 70%;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
 }
 
 /* CURRICULUM DERECHA */
