@@ -662,15 +662,15 @@ body{
 }
 
 .timeline__year{
-    margin: 3px 0px;
+    margin: 0.3rem 0;
     line-height: 1.9rem;
     font-size: 1.4rem;
 }
 
 .timeline__company{
     display: block;
-    margin: 0;
-    margin-bottom: 4px;
+    font-size: 1.3rem;
+    font-weight: lighter;    
 }
 
 /* CURRICULUM DERECHA */
