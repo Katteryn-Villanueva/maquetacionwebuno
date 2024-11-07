@@ -727,3 +727,12 @@ body{
 .resume__right{
     flex-basis: 41%;
 }
+
+.resume__skills{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.skills__title{
+    
+}
