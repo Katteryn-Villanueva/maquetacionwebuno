@@ -801,4 +801,10 @@ body{
 .certificates__container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.certificates__certificate{
+    flex-basis: 50%;
+    gap: 3rem;
 }
