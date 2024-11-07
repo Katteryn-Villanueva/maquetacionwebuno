@@ -844,3 +844,9 @@ body{
     font-size: 1.3rem;
     color: var(--color-subtitles);
 }
+
+.certificate__date{
+    font-size: 1.2rem;
+    color: var(--color-subtitles);
+    opacity: 0.9;
+}
