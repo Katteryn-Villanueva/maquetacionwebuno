@@ -790,9 +790,15 @@ body{
 }
 
 .knowledges__option{
-    padding: 0.1rem 1rem;
+    padding: 0.4rem 1rem;
+    margin: 0.3rem;
     font-size: 1.3rem;
     background-color: var(--color-secundary);
     border-radius: 0.3rem;
     color: var(--color-principal);
+}
+
+.certificates__container{
+    display: flex;
+    flex-direction: row;
 }
