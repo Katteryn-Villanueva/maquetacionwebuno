@@ -726,6 +726,7 @@ body{
 /* CURRICULUM DERECHA */
 .resume__right{
     flex-basis: 41%;
+    padding: 0 1.5rem;
 }
 
 .resume__skills{
@@ -734,5 +735,35 @@ body{
 }
 
 .skills__title{
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__text{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.skills__number{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--color-subtitles);
+}
+
+.skills__progressbar{
+    height: 1rem;    
+    border: 1px solid var(--color-secundary);
+    border-radius: 1rem;
+    background-color: var(--color-principal);
+    margin-bottom: 1.5rem;
+}
+
+.skills__porcentage{
+    width: 40%;
+    height: 0.8rem;
+    background-color: var(--color-secundary);
+    border: 2px solid var(--color-principal);
+    border-radius: 1rem;
 }
