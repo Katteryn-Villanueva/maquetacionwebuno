@@ -767,3 +767,17 @@ body{
     border: 2px solid var(--color-principal);
     border-radius: 1rem;
 }
+
+.skills__porcentage--p1{width: 90%;}
+.skills__porcentage--p2{width: 70%;}
+.skills__porcentage--p3{width: 60%;}
+.skills__porcentage--p4{width: 80%;}
+.skills__porcentage--p5{width: 75%;}
+.skills__porcentage--p6{width: 90%;}
+
+.skills__porcentage--p7{width: 95%;}
+.skills__porcentage--p8{width: 65%;}
+.skills__porcentage--p9{width: 92%;}
+.skills__porcentage--p10{width: 85%;}
+.skills__porcentage--p11{width: 90%;}
+.skills__porcentage--p12{width: 87%;}
